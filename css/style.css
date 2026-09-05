@@ -1258,7 +1258,7 @@ html {
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  background: #c5a574; /* لون ذهبي فاخر */
+  background: #c5a574;
   color: white;
   border: none;
   display: flex;
@@ -1274,7 +1274,7 @@ html {
   z-index: 1000;
 }
 .scroll-top-btn.show {
-  opacity: 1;
+  opacity: 1 !important;
   pointer-events: auto;
 }
 .scroll-top-btn:hover {
